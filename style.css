@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Doodle Shadow'
 }
 
 :root {
@@ -20,7 +21,7 @@ h1{
 }
 
 .container {
-    padding: 40px;
+    padding: 10px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -56,12 +57,11 @@ h1{
 button {
     padding: 10px 20px;
     border-radius: 30px;
-    position: absolute;
-      top: 5%;
-      position: relative;
-      left: 158px;
-      transform: translateX(10);
-      transform: translateY(0%);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5%;
+    transform: translateX(10);
+    transform: translateY(0%);
     background-color: var(--);
     font-size: 18px;
     transition: 250ms transform;
